@@ -92,6 +92,12 @@ Pod::Spec.new do |s|
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
+  s.subspec 'HHZLoading' do |one|
+      one.subspec 'loading' do |three|
+        three.source_files = 'HHZLoading/loading/*.{h,m}'
+      end
+  end
+
   # s.public_header_files = "Classes/**/*.h"
 
 
