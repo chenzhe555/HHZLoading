@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E4484D31F39970200F4D1A8 /* BaseLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484CE1F39970200F4D1A8 /* BaseLoadingView.m */; };
+		6E4484D41F39970200F4D1A8 /* HHZActivityLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484D01F39970200F4D1A8 /* HHZActivityLoadingView.m */; };
+		6E4484D51F39970200F4D1A8 /* HHZPatchLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484D21F39970200F4D1A8 /* HHZPatchLoadingView.m */; };
 		74DD704C1F1EE91200B69AA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD704B1F1EE91200B69AA5 /* main.m */; };
 		74DD704F1F1EE91200B69AA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD704E1F1EE91200B69AA5 /* AppDelegate.m */; };
 		74DD70521F1EE91200B69AA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD70511F1EE91200B69AA5 /* ViewController.m */; };
 		74DD70551F1EE91200B69AA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DD70531F1EE91200B69AA5 /* Main.storyboard */; };
 		74DD70571F1EE91200B69AA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DD70561F1EE91200B69AA5 /* Assets.xcassets */; };
 		74DD705A1F1EE91200B69AA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DD70581F1EE91200B69AA5 /* LaunchScreen.storyboard */; };
-		74DD706B1F1EE9C700B69AA5 /* BaseLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD70661F1EE9C700B69AA5 /* BaseLoadingView.m */; };
-		74DD706C1F1EE9C700B69AA5 /* HHZActivityLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD70681F1EE9C700B69AA5 /* HHZActivityLoadingView.m */; };
-		74DD706D1F1EE9C700B69AA5 /* HHZPatchLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD706A1F1EE9C700B69AA5 /* HHZPatchLoadingView.m */; };
 		D8554E631D46F4D7B0E20DBA /* libPods-HHZLoading.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5FA99A74C29A70E5DF3BEF /* libPods-HHZLoading.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F5FA99A74C29A70E5DF3BEF /* libPods-HHZLoading.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHZLoading.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4484CD1F39970200F4D1A8 /* BaseLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLoadingView.h; sourceTree = "<group>"; };
+		6E4484CE1F39970200F4D1A8 /* BaseLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLoadingView.m; sourceTree = "<group>"; };
+		6E4484CF1F39970200F4D1A8 /* HHZActivityLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZActivityLoadingView.h; sourceTree = "<group>"; };
+		6E4484D01F39970200F4D1A8 /* HHZActivityLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZActivityLoadingView.m; sourceTree = "<group>"; };
+		6E4484D11F39970200F4D1A8 /* HHZPatchLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZPatchLoadingView.h; sourceTree = "<group>"; };
+		6E4484D21F39970200F4D1A8 /* HHZPatchLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZPatchLoadingView.m; sourceTree = "<group>"; };
 		74DD70471F1EE91200B69AA5 /* HHZLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHZLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DD704B1F1EE91200B69AA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74DD704D1F1EE91200B69AA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,12 +37,6 @@
 		74DD70561F1EE91200B69AA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74DD70591F1EE91200B69AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74DD705B1F1EE91200B69AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74DD70651F1EE9C700B69AA5 /* BaseLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLoadingView.h; sourceTree = "<group>"; };
-		74DD70661F1EE9C700B69AA5 /* BaseLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLoadingView.m; sourceTree = "<group>"; };
-		74DD70671F1EE9C700B69AA5 /* HHZActivityLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZActivityLoadingView.h; sourceTree = "<group>"; };
-		74DD70681F1EE9C700B69AA5 /* HHZActivityLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZActivityLoadingView.m; sourceTree = "<group>"; };
-		74DD70691F1EE9C700B69AA5 /* HHZPatchLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZPatchLoadingView.h; sourceTree = "<group>"; };
-		74DD706A1F1EE9C700B69AA5 /* HHZPatchLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZPatchLoadingView.m; sourceTree = "<group>"; };
 		88251F3376ED6A1409676B6F /* Pods-HHZLoading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZLoading.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZLoading/Pods-HHZLoading.debug.xcconfig"; sourceTree = "<group>"; };
 		8999D374E5EAF1BE565B5BE3 /* Pods-HHZLoading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZLoading.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHZLoading/Pods-HHZLoading.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +70,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6E4484CC1F39970200F4D1A8 /* loading */ = {
+			isa = PBXGroup;
+			children = (
+				6E4484CD1F39970200F4D1A8 /* BaseLoadingView.h */,
+				6E4484CE1F39970200F4D1A8 /* BaseLoadingView.m */,
+				6E4484CF1F39970200F4D1A8 /* HHZActivityLoadingView.h */,
+				6E4484D01F39970200F4D1A8 /* HHZActivityLoadingView.m */,
+				6E4484D11F39970200F4D1A8 /* HHZPatchLoadingView.h */,
+				6E4484D21F39970200F4D1A8 /* HHZPatchLoadingView.m */,
+			);
+			path = loading;
+			sourceTree = "<group>";
+		};
 		74DD703E1F1EE91200B69AA5 = {
 			isa = PBXGroup;
 			children = (
@@ -91,7 +104,7 @@
 		74DD70491F1EE91200B69AA5 /* HHZLoading */ = {
 			isa = PBXGroup;
 			children = (
-				74DD70641F1EE9C700B69AA5 /* loading */,
+				6E4484CC1F39970200F4D1A8 /* loading */,
 				74DD704D1F1EE91200B69AA5 /* AppDelegate.h */,
 				74DD704E1F1EE91200B69AA5 /* AppDelegate.m */,
 				74DD70501F1EE91200B69AA5 /* ViewController.h */,
@@ -111,19 +124,6 @@
 				74DD704B1F1EE91200B69AA5 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		74DD70641F1EE9C700B69AA5 /* loading */ = {
-			isa = PBXGroup;
-			children = (
-				74DD70651F1EE9C700B69AA5 /* BaseLoadingView.h */,
-				74DD70661F1EE9C700B69AA5 /* BaseLoadingView.m */,
-				74DD70671F1EE9C700B69AA5 /* HHZActivityLoadingView.h */,
-				74DD70681F1EE9C700B69AA5 /* HHZActivityLoadingView.m */,
-				74DD70691F1EE9C700B69AA5 /* HHZPatchLoadingView.h */,
-				74DD706A1F1EE9C700B69AA5 /* HHZPatchLoadingView.m */,
-			);
-			path = loading;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,13 +218,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HHZLoading-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F95D0041429B491DBE629297 /* [CP] Copy Pods Resources */ = {
@@ -249,9 +252,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74DD706C1F1EE9C700B69AA5 /* HHZActivityLoadingView.m in Sources */,
-				74DD706D1F1EE9C700B69AA5 /* HHZPatchLoadingView.m in Sources */,
-				74DD706B1F1EE9C700B69AA5 /* BaseLoadingView.m in Sources */,
+				6E4484D41F39970200F4D1A8 /* HHZActivityLoadingView.m in Sources */,
+				6E4484D51F39970200F4D1A8 /* HHZPatchLoadingView.m in Sources */,
+				6E4484D31F39970200F4D1A8 /* BaseLoadingView.m in Sources */,
 				74DD70521F1EE91200B69AA5 /* ViewController.m in Sources */,
 				74DD704F1F1EE91200B69AA5 /* AppDelegate.m in Sources */,
 				74DD704C1F1EE91200B69AA5 /* main.m in Sources */,
@@ -380,6 +383,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZLoading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-documentation";
 			};
 			name = Debug;
 		};
@@ -393,6 +397,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZLoading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-documentation";
 			};
 			name = Release;
 		};
