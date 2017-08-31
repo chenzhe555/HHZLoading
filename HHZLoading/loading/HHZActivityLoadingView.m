@@ -158,7 +158,7 @@ static CGFloat kMCActivityViewLeftSpace;
 -(void)stopLoadingView
 {
     self.loadingRetainCount--;
-    if (self.loadingRetainCount == 0)
+    if (self.loadingRetainCount <= 0)
     {
         [super stopLoadingView];
         [_activity stopAnimating];
@@ -179,7 +179,7 @@ static CGFloat kMCActivityViewLeftSpace;
         [self updateFrameWithTextOrNot:YES andText:_titleDic[_titleDic.allKeys[0]]];
     }
     
-    if (self.loadingRetainCount == 0)
+    if (self.loadingRetainCount <= 0)
     {
         [super stopLoadingView];
         _titleDic = [NSMutableDictionary dictionary];
