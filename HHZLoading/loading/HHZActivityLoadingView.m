@@ -112,6 +112,7 @@ static CGFloat kMCActivityViewLeftSpace;
     
     [_activity startAnimating];
     
+    if (self.loadingRetainCount <= 0) self.loadingRetainCount = 0;
     self.loadingRetainCount++;
 }
 
@@ -133,6 +134,7 @@ static CGFloat kMCActivityViewLeftSpace;
     
     [_activity startAnimating];
     
+    if (self.loadingRetainCount <= 0) self.loadingRetainCount = 0;
     self.loadingRetainCount++;
 }
 
