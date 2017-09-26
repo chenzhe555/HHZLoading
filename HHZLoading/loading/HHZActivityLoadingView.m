@@ -159,42 +159,53 @@ static CGFloat kMCActivityViewLeftSpace;
 
 -(void)stopLoadingView
 {
-    self.loadingRetainCount--;
-    if (self.loadingRetainCount <= 0)
+    if (!self.hidden)
     {
-        [super stopLoadingView];
-        [_activity stopAnimating];
+        self.loadingRetainCount--;
+        if (self.loadingRetainCount <= 0)
+        {
+            [super stopLoadingView];
+            [_activity stopAnimating];
+        }
     }
 }
 
 -(void)stopLoadingViewWithKey:(NSString *)key
 {
-    self.loadingRetainCount--;
-    [_titleDic removeObjectForKey:key];
-    
-    if (_titleDic.allKeys.count == 0)
+    if (!self.hidden)
     {
-        [self updateFrameWithTextOrNot:NO andText:nil];
-    }
-    else
-    {
-        [self updateFrameWithTextOrNot:YES andText:_titleDic[_titleDic.allKeys[0]]];
-    }
-    
-    if (self.loadingRetainCount <= 0)
-    {
-        [super stopLoadingView];
-        _titleDic = [NSMutableDictionary dictionary];
-        [_activity stopAnimating];
+        self.loadingRetainCount--;
+        [_titleDic removeObjectForKey:key];
+        
+        if (_titleDic.allKeys.count == 0)
+        {
+            [self updateFrameWithTextOrNot:NO andText:nil];
+        }
+        else
+        {
+            [self updateFrameWithTextOrNot:YES andText:_titleDic[_titleDic.allKeys[0]]];
+        }
+        
+        if (self.loadingRetainCount <= 0)
+        {
+            [super stopLoadingView];
+            _titleDic = [NSMutableDictionary dictionary];
+            [_activity stopAnimating];
+        }
     }
 }
 
 -(void)stopLoadingViewImmediately
 {
-    self.loadingRetainCount = 0;
-    [super stopLoadingView];
-    _titleDic = [NSMutableDictionary dictionary];
-    [_activity stopAnimating];
+    if (!self.hidden)
+    {
+        self.loadingRetainCount = 0;
+        [super stopLoadingView];
+        _titleDic = [NSMutableDictionary dictionary];
+        [_activity stopAnimating];
+    }
+    
 }
+
 
 @end

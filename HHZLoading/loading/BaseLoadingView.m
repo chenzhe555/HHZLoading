@@ -31,12 +31,13 @@
 
 -(void)initTheme
 {
-    self.hidden = NO;
+    if (self.isHidden) self.hidden = NO;
+    self.loadingRetainCount = 0;
 }
 
 -(void)stopLoadingView
 {
-    self.hidden = YES;
+    if (!self.isHidden) self.hidden = YES;
 }
 
 -(void)exchangeNewMainWindow
