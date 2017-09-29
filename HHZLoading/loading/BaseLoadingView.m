@@ -32,7 +32,6 @@
 -(void)initTheme
 {
     if (self.isHidden) self.hidden = NO;
-    self.loadingRetainCount = 0;
 }
 
 -(void)stopLoadingView

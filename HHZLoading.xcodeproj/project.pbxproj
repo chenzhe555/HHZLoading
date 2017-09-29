@@ -10,6 +10,7 @@
 		6E4484D31F39970200F4D1A8 /* BaseLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484CE1F39970200F4D1A8 /* BaseLoadingView.m */; };
 		6E4484D41F39970200F4D1A8 /* HHZActivityLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484D01F39970200F4D1A8 /* HHZActivityLoadingView.m */; };
 		6E4484D51F39970200F4D1A8 /* HHZPatchLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484D21F39970200F4D1A8 /* HHZPatchLoadingView.m */; };
+		6EEC44891F7DCBA500744A2A /* HHZActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEC44881F7DCBA500744A2A /* HHZActivityIndicatorView.m */; };
 		74DD704C1F1EE91200B69AA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD704B1F1EE91200B69AA5 /* main.m */; };
 		74DD704F1F1EE91200B69AA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD704E1F1EE91200B69AA5 /* AppDelegate.m */; };
 		74DD70521F1EE91200B69AA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD70511F1EE91200B69AA5 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 		6E4484D01F39970200F4D1A8 /* HHZActivityLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZActivityLoadingView.m; sourceTree = "<group>"; };
 		6E4484D11F39970200F4D1A8 /* HHZPatchLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZPatchLoadingView.h; sourceTree = "<group>"; };
 		6E4484D21F39970200F4D1A8 /* HHZPatchLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZPatchLoadingView.m; sourceTree = "<group>"; };
+		6EEC44871F7DCBA500744A2A /* HHZActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZActivityIndicatorView.h; sourceTree = "<group>"; };
+		6EEC44881F7DCBA500744A2A /* HHZActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZActivityIndicatorView.m; sourceTree = "<group>"; };
 		74DD70471F1EE91200B69AA5 /* HHZLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHZLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DD704B1F1EE91200B69AA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74DD704D1F1EE91200B69AA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				6E4484D01F39970200F4D1A8 /* HHZActivityLoadingView.m */,
 				6E4484D11F39970200F4D1A8 /* HHZPatchLoadingView.h */,
 				6E4484D21F39970200F4D1A8 /* HHZPatchLoadingView.m */,
+				6EEC44871F7DCBA500744A2A /* HHZActivityIndicatorView.h */,
+				6EEC44881F7DCBA500744A2A /* HHZActivityIndicatorView.m */,
 			);
 			path = loading;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EEC44891F7DCBA500744A2A /* HHZActivityIndicatorView.m in Sources */,
 				6E4484D41F39970200F4D1A8 /* HHZActivityLoadingView.m in Sources */,
 				6E4484D51F39970200F4D1A8 /* HHZPatchLoadingView.m in Sources */,
 				6E4484D31F39970200F4D1A8 /* BaseLoadingView.m in Sources */,
